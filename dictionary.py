@@ -5,3 +5,10 @@ for i in dict.keys():
         dict[i]='seven'
 
 print(dict)
+
+
+# number = input()
+# print(number)
+list = input('Enter No').split()
+list = [int(i) for i in list]
+print(list)
