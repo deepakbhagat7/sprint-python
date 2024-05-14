@@ -43,6 +43,9 @@ print(myDec)
 
 from fractions import Fraction
 print((2.7+2.7+2.7)-8.1)
-# output is 1.7763568394002505e-15 which is wrong  so in order to solve this problem we use fraction library
+# output is 1.7763568394002505e-15 which is wrong  so in order to solve this problem we use fraction
+#
+#
+# library
 myFra = Fraction(2,7) + Fraction(2,7) + Fraction(2,7)
 print(myFra)
